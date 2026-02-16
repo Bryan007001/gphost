@@ -6,5 +6,5 @@ docker image load -i ./lyasper-sshd-centos7.tar.gz
 rm -f lyasper-sshd-centos7.tar.gz
 
 cat rpms.tar.gz.part_* > rpms.tar.gz
-docker build . -t lyasper/gphost
+docker build . -t bryan007001/gphost
 rm -f rpms.tar.gz
