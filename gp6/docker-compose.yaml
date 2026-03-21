@@ -7,7 +7,7 @@ services:
      - "6222:22"
      - "6432:5432"
     volumes:
-     - /data/mdw:/home/gpadmin/data
+     - /data/mdw:/home/gpadmin/master
   sdw1:
     hostname: sdw1
     image: "gpdb6"
